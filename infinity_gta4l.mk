@@ -21,21 +21,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from gta4l device
 $(call inherit-product, device/samsung/gta4l/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tablet.mk)
+# Inherit some common InfinityX stuff.
+$(call inherit-product, vendor/infinity/config/common_full_tablet.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gta4l
-PRODUCT_NAME := lineage_gta4l
+PRODUCT_NAME := infinity_gta4l
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T505
 PRODUCT_MANUFACTURER := samsung
 
-PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
+INFINITY_MAINTAINER := Shipu
+# Whether the compiled package ships Google Apps:
+WITH_GAPPS := true
+
+
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Use the latest approved GMS identifiers
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="gta4lxx-user 12 SP1A.210812.016 T505XXS8CXG1 release-keys" \
-    BuildFingerprint=samsung/gta4leea/gta4l:12/SP1A.210812.016/T505XXS8CXG1:user/release-keys \
-    DeviceProduct=gta4lxx \
-    SystemName=gta4lxx
