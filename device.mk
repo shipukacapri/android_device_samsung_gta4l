@@ -27,6 +27,11 @@ PRODUCT_PACKAGES += \
     init.vendor.rilchip.rc \
     init.vendor.rilcommon.rc
 
+# Infinity Device Specific Properties
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.infinity.soc=Snapdragon_662 \
+    ro.infinity.camera=8MP(Primary)+5MP(Front)
+
 # IPA
 PRODUCT_PACKAGES += \
     ipacm \
