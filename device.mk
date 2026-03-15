@@ -21,6 +21,9 @@ $(call inherit-product, vendor/samsung/gta4l/gta4l-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# Overlay Derp Maintainer
+PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.gta4l.rc \
