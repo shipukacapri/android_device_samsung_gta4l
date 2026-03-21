@@ -31,6 +31,12 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T505
 PRODUCT_MANUFACTURER := samsung
 
+# MistOS Flags
+MISTOS_MAINTAINER := Shipu
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
+TARGET_ENABLE_BLUR := true
+
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 # Use the latest approved GMS identifiers
