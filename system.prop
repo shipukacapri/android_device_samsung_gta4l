@@ -1,0 +1,9 @@
+# device props MISTIFY
+ro.mist.display=2000 x 1200
+ro.mist.battery=7040mah
+ro.mist.soc=Snapdragon® 662
+ro.mist.camera=8MP
+ro.mist.front=5MP
+ro.mist.platform=SM6115
+ro.mist.screen=10.4' TFT LCD
+ro.mist.device.name=Samsung Galaxy Tab A7 (LTE)
