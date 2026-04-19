@@ -31,6 +31,10 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T505
 PRODUCT_MANUFACTURER := samsung
 
+# Lunaris-Flags
+WITH_GMS := true
+WITH_BCR := true
+
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 # Use the latest approved GMS identifiers
