@@ -17,6 +17,10 @@
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/samsung/gta4l/gta4l-vendor.mk)
 
+# Lunaris Maintainer prop
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.lunaris.maintainer=Shipu
+
 # Local overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
