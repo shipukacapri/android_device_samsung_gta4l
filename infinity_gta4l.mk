@@ -33,7 +33,8 @@ PRODUCT_MANUFACTURER := samsung
 
 # Infinity Flags
 INFINITY_MAINTAINER := Shipu
-WITH_GAPPS := true
+# Whether Including Google Apps
+WITH_GAPPS := false
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
