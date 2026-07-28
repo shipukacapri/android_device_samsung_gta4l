@@ -18,6 +18,9 @@
 
 DEVICE_PATH := device/samsung/gta4l
 
+# for ASCP duplicates
+BUILD_BROKEN_DUP_RULES := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := gta4l
 
