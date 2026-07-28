@@ -21,11 +21,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from gta4l device
 $(call inherit-product, device/samsung/gta4l/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tablet.mk)
+# Inherit some common ASCP stuff.
+$(call inherit-product, vendor/custom/config/common_full_tablet.mk)
+
+# Flags
+WITH_REVANCED := true
+ASCP_MAINTAINER := Shipu
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := gta4l
+PRODUCT_DEVICE := a7tab
 PRODUCT_NAME := lineage_gta4l
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T505
