@@ -39,3 +39,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=samsung/gta4leea/gta4l:12/SP1A.210812.016/T505XXS8CXG1:user/release-keys \
     DeviceProduct=gta4lxx \
     SystemName=gta4lxx
+
+# Rising Flags
+WITH_GMS := true
+RISING_MAINTAINER := Shipu
+TARGET_ENABLE_BLUR := true
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingMaintainer="Shipu" \
+    RisingChipset="Snapdragon 662"
